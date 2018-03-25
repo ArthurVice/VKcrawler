@@ -27,8 +27,7 @@ def get_vk_attachments(vk_attachments):  # Returns attachments; Only photo yet
         return attachments
     else:
         return 'None'
-# Attachments = vk_attachments['attachments'][0]['type'] + " " + vk_attachments['attachments'][0]['photo']['src']
-# Attachments = vk_attachments['attachments'][0]['type'] + " " + vk_attachments['attachments'][0]['link']['url']
+
 
 
 def get_vk_comments(vk_attachments):
